@@ -1,0 +1,29 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "strict-boolean-expressions": false,
+    "import-name": false,
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "max-line-length": [
+      true,
+      400
+    ],
+    "align": [
+      true,
+      "parameters",
+      "statements",
+      "members"
+    ],
+    "variable-name": [
+      true,
+      "allow-pascal-case"
+    ]
+  }
+}
